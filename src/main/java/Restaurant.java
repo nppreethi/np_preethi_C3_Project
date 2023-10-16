@@ -73,9 +73,6 @@ public class Restaurant {
                 total = total + selectedItem.getPrice();
             }
         }
-
-
-
         return total;
     }
     //    implemented getOrderValue
@@ -88,8 +85,9 @@ public class Restaurant {
                 total += item.getPrice();
             }
         }
-
         return total;
     }
+
+
 
 }
